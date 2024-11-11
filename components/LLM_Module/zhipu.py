@@ -5,7 +5,7 @@ client = ZhipuAI(api_key=load_api_key("zhipu"))  # 请填写您自己的APIKey
 
 
 response = client.chat.completions.create(
-    model="glm-4",  # 请填写您要调用的模型名称
+    model="glm-4-plus",  # 请填写您要调用的模型名称
     messages=[
         {"role": "user", "content": "写一首关于上海的诗，体现一下上海的繁华。"}
     ],

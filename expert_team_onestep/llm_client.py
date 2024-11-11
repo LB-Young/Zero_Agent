@@ -9,4 +9,4 @@ def load_api_key(platform):
 
 client = ZhipuAI(api_key=load_api_key("zhipu"))
 
-model="glm-4"
+model="glm-4-plus"

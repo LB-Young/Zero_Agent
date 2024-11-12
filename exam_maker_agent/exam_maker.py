@@ -87,7 +87,7 @@ prompt = f"""
 """
 
 # 初始化OpenAI客户端
-client = OpenAI(api_key="sk-45e96acc145d480d8f5ef922e42bb38a", base_url="https://api.deepseek.com")
+client = OpenAI(api_key="", base_url="https://api.deepseek.com")
 
 # 初始化对话历史
 messages = [{"role": "user", "content": prompt}]

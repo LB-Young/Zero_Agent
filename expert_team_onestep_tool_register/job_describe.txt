@@ -13,7 +13,7 @@
 {roles}
 
 ## tools:
-
+{tools}
 
 ## Constraints：
 - 你必须清晰的理解问题和各个角色擅长的领域，并且熟练使用工具。
